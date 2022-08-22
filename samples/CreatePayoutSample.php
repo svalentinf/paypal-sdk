@@ -5,7 +5,7 @@ namespace Sample;
 require __DIR__ . '/../vendor/autoload.php';
 
 use Sample\PayPalClient;
-use PaypalPayoutsSDK\Payouts\PayoutsPostRequest;
+use PaypalSdk\Payouts\PayoutsPostRequest;
 use PayPalHttp\HttpException;
 
 class CreatePayoutSample

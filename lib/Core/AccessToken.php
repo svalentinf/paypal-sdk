@@ -1,6 +1,6 @@
 <?php
 
-namespace PaypalPayoutsSDK\Core;
+namespace PaypalSdk\Core;
 
 
 class AccessToken

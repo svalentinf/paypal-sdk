@@ -6,7 +6,7 @@ namespace Test\Orders;
 
 use PHPUnit\Framework\TestCase;
 
-use PayPalCheckoutSdk\Orders\OrdersCaptureRequest;
+use PaypalSdk\Orders\OrdersCaptureRequest;
 use Test\TestHarness;
 
 

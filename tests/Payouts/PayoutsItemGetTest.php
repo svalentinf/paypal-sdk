@@ -2,11 +2,11 @@
 
 
 
-namespace Test\PaypalPayoutsSDK\Payouts;
+namespace Test\PaypalSdk\Payouts;
 
 use PHPUnit\Framework\TestCase;
 
-use PaypalPayoutsSDK\Payouts\PayoutsItemGetRequest;
+use PaypalSdk\Payouts\PayoutsItemGetRequest;
 use Test\TestHarness;
 
 

@@ -27,8 +27,8 @@ Get client ID and client secret by going to https://developer.paypal.com/develop
 
 ```PHP
 require __DIR__ . '/vendor/autoload.php';
-use PaypalPayoutsSDK\Core\PayPalHttpClient;
-use PaypalPayoutsSDK\Core\SandboxEnvironment;
+use PaypalSdk\Core\PayPalHttpClient;
+use PaypalSdk\Core\SandboxEnvironment;
 // Creating an environment
 $clientId = "<<PAYPAL-CLIENT-ID>>";
 $clientSecret = "<<PAYPAL-CLIENT-SECRET>>";
@@ -42,7 +42,7 @@ $client = new PayPalHttpClient($environment);
 This will create a Payout and print batch id for the created Payouts
 
 ```PHP
-use PaypalPayoutsSDK\Payouts\PayoutsPostRequest;
+use PaypalSdk\Payouts\PayoutsPostRequest;
 $request = new PayoutsPostRequest();
 $body= json_decode(
             '{
