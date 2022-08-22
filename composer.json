@@ -12,22 +12,24 @@
   ],
   "type": "library",
   "license": "MIT",
-  "homepage": "http://github.com/svalentinf/paypal-sdk",
+  "homepage": "https://github.com/svalentinf/paypal-sdk",
   "require": {
     "paypal/paypalhttp": "~1.0.1"
   },
   "authors": [
     {
-      "name": "PayPal",
-      "homepage": "https://github.com/paypal/PAYOUTS-PHP-SDK/contributors"
+      "name": "Valentin Sonu",
+      "homepage": "https://github.com/svalentinf/paypal-sdk/contributors"
     }
   ],
   "require-dev": {
     "phpunit/phpunit": "*"
   },
+  "repositories": [
+  ],
   "autoload": {
     "psr-4": {
-      "PaypalPayoutsSDK\\": "lib/",
+      "PaypalSdk\\": "lib/",
       "Sample\\": "samples/"
     }
   },
