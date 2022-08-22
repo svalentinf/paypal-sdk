@@ -12,7 +12,7 @@
   ],
   "type": "library",
   "license": "MIT",
-  "homepage": "http://github.com/svalentif/paypal-sdk/",
+  "homepage": "http://github.com/svalentinf/paypal-sdk",
   "require": {
     "paypal/paypalhttp": "~1.0.1"
   },
